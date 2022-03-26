@@ -1,5 +1,5 @@
 # Linux-server-Monitor
-this is small script that will display the following information:
+this is a small script that will display the following information:
 - The architecture of your operating system and its kernel version.
 - The number of physical processors.
 - The number of virtual processors.
