@@ -13,7 +13,6 @@ per_disk=$(df -Bm | grep '/dev/' | grep -v '/boot' | awk '{used_d += $3} {free_d
 #-----lvm
 lvm_check=$(lsblk | grep lvm | wc -l)
 
-#----cpu
 wall "    #Architecture: $(uname -a)
     #CPU physical: $(cat /proc/cpuinfo | grep "physical id" | wc -l)
     #vCPU: $(cat /proc/cpuinfo | grep "processor" | wc -l)
